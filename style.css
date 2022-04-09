@@ -1,0 +1,50 @@
+#app {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #4D4D4D;
+    margin: 100px auto 100px auto;
+}
+
+h1 {
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: lighter;
+}
+
+.numbers {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.numbers div:nth-child(1) {
+    color: #BF472C;
+}
+
+.numbers div:nth-child(2) {
+    color: #828C35;
+}
+
+input {
+    padding: 8px;
+    border-width: 1px;
+    border-color: #4D4D4D;
+    border-style: solid;
+}
+
+button {
+    border: none;
+    border-radius: 1ch;
+    padding: 6px;
+    margin: 10px;
+    background-color: #F25D50;
+    color: white;
+}
+
+button.play {  
+    background-color: #698EBF;
+}
+
+
